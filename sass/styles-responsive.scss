@@ -1,0 +1,99 @@
+@media (min-width: 1280px) {
+}
+
+/*iPad Pro*/
+@media (max-width: 1024px) {
+
+}
+
+/*Nexus 10 to Desktop*/
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+/*Nexus 10*/
+@media (max-width: 800px) {
+
+}
+
+/*iPad 10 to Desktop*/
+@media (min-width: 768px) {
+  header {
+    .site-header {
+      &.navbar-default {
+        .container-fluid {
+          .navbar-collapse {
+            display: table !important;
+            margin: 0 auto;
+            .navbar-form,
+            .navbar-right {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+  .navbar-nav {
+    > li {
+      > a {
+        padding-top: 22px;
+        padding-bottom: 22px;
+      }
+    }
+  }
+}
+
+/*iPad*/
+@media (max-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
+
+/*Nexus 7*/
+@media (max-width: 600px) {
+  .container {
+    width: 400px;
+  }
+}
+
+/*iPhone 6 Plus*/
+@media (max-width: 414px) {
+  .container {
+    width: 374px;
+  }
+}
+
+/*Nexus 5x*/
+@media (max-width: 412px) {
+  .container {
+    width: 372px;
+  }
+}
+
+/*Nexus 4*/
+@media (max-width: 384px) {
+  .container {
+    width: 360px;
+  }
+}
+
+/*iPhone 6*/
+@media (max-width: 375px) {
+
+}
+
+/*Nexus 5*/
+@media (max-width: 360px) {
+
+}
+
+/*iPhone 5*/
+@media (max-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}

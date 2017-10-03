@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="device=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
+  <title>Mamamiki</title>
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link rel="stylesheet" href="css/styles.css?v=0.1.10.4">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="javascript:void(0)" title="Mamamiki">
+              <img src="images/logo.svg" alt="home" sizes="64x64" class="img-responsive center-block img-logo">
+              <span>Mamamiki</span>
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav">
+              <li><a href="javascript:void(0)">Adalah</a></li>
+              <li><a href="javascript:void(0)">Nilai Tambah</a></li>
+              <li><a href="javascript:void(0)">Dekat Hemat</a></li>
+              <li><a href="javascript:void(0)">Cara Order</a></li>
+              <li class="hide"><a href="javascript:void(0)">Masuk</a></li>
+              <li class="hide"><a href="javascript:void(0)">Daftar</a></li>
+              <li class="hide"><a href="javascript:void(0)"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Keranjang</a></li>
+            </ul>
+          </div>
+          <form class="search-form">
+            <div class="form-group">
+              <input type="text" class="form-control" id="autocompleteSearch" placeholder="Cari paket terdekat">
+              <span class="search-caption"> Masukkan nama paket diikuti area, <br>e.g., nasi goreng gondangdia </span>
+            </div>
+            <button type="submit" class="btn btn-default hide">Submit</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <section class="content-section">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="homepage-section">
+            <p class="text-center">Tentukan lokasi terdekat</p>
+            <div class="dropdown">
+              <a href="javascript:void(0)" class="btn btn-default center-block" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pilih Area  <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="javascript:void(0)"><strong>Jakarta Pusat</strong></a></li>
+                  <li><a href="javascript:void(0)">Kebon Kacang</a></li>
+                  <li><a href="javascript:void(0)">Kebon Sirih</a></li>
+                  <li><a href="javascript:void(0)">Gondangdia</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="homepage-section">
+              <p class="text-center">Paket makanan &amp; layanan</p>
+              <div class="dropdown">
+                <a href="javascript:void(0)" class="btn btn-default center-block" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pilih Paket  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="javascript:void(0)"> Snack Bar </a></li>
+                    <li><a href="javascript:void(0)"> Gulp Gulp Gulp </a></li>
+                    <li><a href="javascript:void(0)"> Begadang </a></li>
+                    <li><a href="javascript:void(0)"> Survival </a></li>
+                    <li><a href="javascript:void(0)" id="Mmm"> Mmm &#128566; </a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="homepage-section">
+            <p class="text-center">Jadi <span style="text-decoration:line-through;">sibuk</span> produktif</p>
+            <div class="dropdown">
+              <a href="javascript:void(0)" class="btn btn-default center-block" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Daftar Gratis  <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="javascript:void(0)">Kreasi Dapur Energi </a></li>
+                  <li><a href="javascript:void(0)">Jadi Kapten </a></li>
+                  <li><a href="javascript:void(0)">Happy Costumers &#128523; </a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="homepage-section">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 col-xs-4">
+                  <a href="tel:+6281318189982" class="text-center phone-number" target="_blank">
+                    <img src="images/telp.svg" alt="telephone" class="img-responsive center-block">
+                  </a>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-4">
+                <a href="https://api.whatsapp.com/send?phone=6281318189982&text=Hi%20Mamamiki%0ANama%20Saya%3A%0AE-mail%3A%0APertanyaan%2FPemesanan%2FSaran%3A" target="_blank">
+                  <img src="images/whatsapp-m.svg" alt="whatsapp" class="img-responsive center-block">
+                </a>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-4">
+                <a href="sms://+6281318189982?body=Hi%20Mamamiki%0ANama%20Saya%3A%0AE-mail%3A%0APertanyaan%2FPemesanan%2FSaran%3A" target="_blank">
+                  <img src="images/sms-m.svg" alt="sms" class="img-responsive center-block">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-section">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <p class="kit">Keep in Touch</p>
+          <ul class="list-group">
+            <li class="list-group-item"><a href="javascript:void(0)" target="_blank">Hubungi kami</a></li>
+            <li class="list-group-item"><a href="javascript:void(0)" target="_blank">Twitter</a></li>
+            <li class="list-group-item"><a href="javascript:void(0)" target="_blank">Facebook</a></li>
+            <li class="list-group-item"><a href="javascript:void(0)" target="_blank">Google Plus</a></li>
+            <li class="list-group-item"><a href="javascript:void(0)" target="_blank">Instagram</a></li>
+            <li class="list-group-item"><a href="javascript:void(0)" target="_blank">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
